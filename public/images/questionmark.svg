@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 301 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-4539,-53)">
+        <g id="questionmark" transform="matrix(1,0,0,1,448.048,0)">
+            <circle id="bgEllpise" cx="4241" cy="203" r="150"/>
+            <g transform="matrix(0.610168,0,0,0.629552,1652.02,77.6774)">
+                <g transform="matrix(1,0,0,1,-448.048,-13.925)">
+                    <path d="M4631,153C4631,98.333 4728.72,79.452 4748,135C4769.19,196.061 4678,197.06 4691.11,283.27" style="fill:none;stroke:rgb(230,230,230);stroke-width:64.52px;"/>
+                </g>
+                <g transform="matrix(1.87718,0,0,2.73312,-4521.52,-528.211)">
+                    <ellipse cx="4669.02" cy="316" rx="20.024" ry="13" style="fill:rgb(230,230,230);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

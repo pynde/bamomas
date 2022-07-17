@@ -1,0 +1,19 @@
+.MainPage {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 40, 48);
+    overflow: hidden;
+    position: relative;
+    display: block;
+    justify-content: center;
+
+    #listFilterContainer {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.MainPageTransition {
+    opacity: 1;
+}

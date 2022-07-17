@@ -1,0 +1,82 @@
+
+
+@mixin defaultStroke {
+        stroke: black;
+        stroke-width: 0.5px;
+}
+
+.BatterySVG {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 0 30px white);
+    transition: opacity 0.5s;
+
+.BatterySVGOff {
+    opacity: 0;
+}
+
+    
+    
+    #batteryBody {
+        fill: rgb(31, 50, 68);
+        @include defaultStroke();
+    }
+
+    #batteryTop {
+        fill: rgb(50, 80, 109);
+        @include defaultStroke();
+    }
+
+    #batteryInside {
+        fill: rgb(15, 25, 34);
+    }
+
+    #batteryButtonBody {
+        fill: rgb(57, 62, 66);
+        @include defaultStroke();
+    }
+
+    #batteryButtonTop {
+        fill: rgb(86, 99, 112);
+        @include defaultStroke();
+    }
+
+    #wave1 {
+        transform-origin: 50% 100%;
+        fill: #90A9DD;
+        stroke: #e9feff5d;
+        stroke-width: 1px;
+        animation: aaltoAnimation 2s infinite linear;
+    }
+    #wave2 {
+        transform-origin: 50% 100%;
+        fill: #d6d6d6;
+        animation: aaltoAnimationBg 2s infinite linear;
+    }
+    #wave3 {
+        transform-origin: 50% 100%;
+        fill: #d6d6d6;
+        animation: aaltoAnimationBg 2s infinite linear;
+    }
+}
+    @keyframes aaltoAnimation {
+        0% { transform: translateY(40%); opacity: 0; fill: #fda451;}
+        10% { opacity: 1; }
+        90% { transform:translateY(-50%) rotateZ(60deg); opacity: 0; fill: #85e76c; }
+        100% { opacity: 0;}
+    }
+
+    @keyframes aaltoAnimationBg {
+        0% { transform: translateY(40%); opacity: 0;}
+        20% { opacity: 0.3; }
+        100% { transform:translateY(-50%) rotateZ(20deg); opacity: 0;}
+    }
+
+    @keyframes glow {
+        from { filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.2)); }
+        to { filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));  }
+    }
+
+    @keyframes fadeInOut {
+        
+    }

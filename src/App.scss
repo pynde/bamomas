@@ -1,0 +1,23 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 10fr;
+  font-size: 1em;
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 740px)  {
+  body {
+    font-size: 0.9em;
+  }
+  
+}
+
+@media screen and (max-width: 600px)  {
+  body {
+    font-size: 0.8em;
+  }
+  
+}

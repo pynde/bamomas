@@ -1,0 +1,94 @@
+.Filter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 112, 133);
+    align-items:center;
+    justify-content: space-between;
+    width: 200px;
+    height: 100%;
+    padding: 0 10px 0 10px;
+
+    button {
+        background-color: #0076bb5e;
+        border: none;
+        border-radius: 0.2em;
+    }
+
+    #id {
+        width: 100%;;
+        button {
+            font-size: 1.2em;
+            margin: 5px;
+        }
+       
+        .selectedId {
+            background-color: white;
+        }
+    }
+
+    .sectionContainer {
+        height: 60px;
+        border: 1px;
+        border-bottom-style: solid;
+        text-align: center;
+        flex-grow: 1;
+        vertical-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        span {
+            display: block;;
+        }
+    }
+    #filterBtn {
+        width: 90%;
+        height: 40px;
+        font-size: 1.4em;
+        border: rgb(0, 16, 31) solid 1px;
+        flex-grow: 1;
+        margin: 10px;
+        background-color: #77b3d6d3;
+        &:active {
+        background-color: black;
+        color: white;
+        }
+    }
+    .stateOfCharge {
+        position: relative;
+        width: 100%;
+    }
+    
+    #connectionStatus {
+        width: 100%;
+        button {
+            margin: 5px;
+            font-size: 1.2em;
+        }
+
+        .connectionButton {
+            background-color: white;
+            border: none;
+            margin: 5px;
+         }
+    }
+
+    #location {
+        button {
+            font-size: 0.8em;
+            border: none;
+            margin: 5px;     
+        }
+        .locationButton{
+            background-color: white;
+            border: none;
+            margin: 5px;
+        }
+    }
+    
+
+    
+}

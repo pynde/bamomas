@@ -1,0 +1,32 @@
+$bgColor : rgb(100, 182, 237);
+$color : rgb(25, 29, 32);
+$height: 150px;
+$width: 150px;
+
+.LoadingAnimation {
+    position: absolute;
+    top: calc(50% - $height / 2);
+    left: calc(50% - $width / 2);
+    display: inline-block;
+    width: $width;
+    height: $height;
+    color: $color;
+    vertical-align: middle;
+    transition: opacity 1s;
+    
+
+    span {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.452);
+        text-shadow: 1px 1px 5px #000;
+        font-size: 18px;
+        border-radius: 1em;
+        padding: 0.2em 0 0.2em 0;
+        background-color: linear-gradient(rbg(150, 200, 255), blue);
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: calc(50% - 0.4em);
+    }
+}
+
